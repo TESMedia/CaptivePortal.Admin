@@ -1,0 +1,21 @@
+INFO 2017-03-09 17:15:34,720 System.Web.Http.ApiController - Application started successfully.
+INFO 2017-03-09 17:20:36,034 CaptivePortal.API.Controllers.AccountController - enter in register
+INFO 2017-03-09 17:29:01,361 CaptivePortal.API.Controllers.AccountController - enter in register
+INFO 2017-03-09 17:37:28,203 System.Web.Http.ApiController - Application started successfully.
+INFO 2017-03-09 17:38:17,076 CaptivePortal.API.Controllers.AccountController - enter in register
+INFO 2017-03-09 17:44:14,877 System.Web.Http.ApiController - Application started successfully.
+INFO 2017-03-09 17:49:51,876 CaptivePortal.API.Controllers.AccountController - enter in register
+ERROR 2017-03-09 17:50:09,124 CaptivePortal.API.Controllers.AccountController - Unable to connect to any of the specified MySQL hosts.
+INFO 2017-03-09 18:11:57,141 CaptivePortal.API.Controllers.AccountController - enter in register
+INFO 2017-03-09 18:14:03,893 CaptivePortal.API.Controllers.AccountController - enter in register
+INFO 2017-03-09 18:17:12,276 CaptivePortal.API.Controllers.AccountController - enter in register
+INFO 2017-03-09 18:20:33,092 CaptivePortal.API.Controllers.AccountController - enter in register
+INFO 2017-03-09 18:23:08,930 CaptivePortal.API.Controllers.AccountController - enter in register
+INFO 2017-03-09 18:33:42,645 CaptivePortal.API.Controllers.AccountController - enter in register
+INFO 2017-03-09 18:36:54,021 CaptivePortal.API.Controllers.AccountController - enter in register
+INFO 2017-03-09 18:41:27,060 System.Web.Http.ApiController - Application started successfully.
+INFO 2017-03-09 18:52:33,935 System.Web.Http.ApiController - Application started successfully.
+INFO 2017-03-09 18:53:41,590 CaptivePortal.API.Controllers.AccountController - enter in register
+INFO 2017-03-09 18:57:50,216 CaptivePortal.API.Controllers.AccountController - enter in register
+INFO 2017-03-09 19:08:33,286 CaptivePortal.API.Controllers.AccountController - enter in register
+INFO 2017-03-09 19:39:54,986 CaptivePortal.API.Controllers.AccountController - enter in register
