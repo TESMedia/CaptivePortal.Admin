@@ -19,3 +19,11 @@ INFO 2017-03-09 18:53:41,590 CaptivePortal.API.Controllers.AccountController - e
 INFO 2017-03-09 18:57:50,216 CaptivePortal.API.Controllers.AccountController - enter in register
 INFO 2017-03-09 19:08:33,286 CaptivePortal.API.Controllers.AccountController - enter in register
 INFO 2017-03-09 19:39:54,986 CaptivePortal.API.Controllers.AccountController - enter in register
+INFO 2017-03-21 15:45:33,211 System.Web.Http.ApiController - Application started successfully.
+INFO 2017-03-21 16:28:36,519 System.Web.Http.ApiController - Application started successfully.
+INFO 2017-03-21 16:31:42,586 System.Web.Http.ApiController - Application started successfully.
+INFO 2017-03-21 16:32:16,902 CaptivePortal.API.Controllers.AccountController - enter in register
+ERROR 2017-03-21 16:32:36,339 CaptivePortal.API.Controllers.AccountController - Unable to connect to any of the specified MySQL hosts.
+INFO 2017-03-21 16:34:05,767 System.Web.Http.ApiController - Application started successfully.
+INFO 2017-03-21 16:34:37,837 CaptivePortal.API.Controllers.AccountController - enter in register
+INFO 2017-03-21 16:36:05,930 CaptivePortal.API.Controllers.AccountController - enter in register

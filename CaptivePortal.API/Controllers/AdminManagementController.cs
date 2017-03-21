@@ -21,17 +21,21 @@ namespace CaptivePortal.API.Controllers
         string retString = "-1";
         [HttpPost]
         [Route("GAlogin")]
-        public async Task<ActionResult> GALogin(LoginViewModel admin)
+        public ActionResult GALogin(AdminLoginViewModel admin)
         {
             try
             {
-                if (!string.IsNullOrEmpty(admin.Email) && !string.IsNullOrEmpty(admin.UserPassword))
+                if (!string.IsNullOrEmpty(admin.Email) && !string.IsNullOrEmpty(admin.Password))
                 {
-                    AdminManagementModel user = db.AdminManagementModels.Where(m => m.Email == admin.Email).FirstOrDefault();
+                    UserInfo user = db.UserInfoModels.Where(m => m.email == admin.Email).FirstOrDefault();
                     if (user != null)
                     {
                         retString = Convert.ToString(user);
                     }
+                }
+                else
+                {
+                    return RedirectToAction("Login", "AdminManagement");
                 }
             }
             catch (Exception ex)

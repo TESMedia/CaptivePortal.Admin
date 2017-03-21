@@ -22,3 +22,9 @@ C:\Users\mssom\Desktop\CP\CP_API\DBObject\bin\Debug\DBObject.pdb
 C:\Users\mssom\Desktop\CP\CP_API\DBObject\obj\Debug\CP.Lib.csprojResolveAssemblyReference.cache
 C:\Users\mssom\Desktop\CP\CP_API\DBObject\obj\Debug\DBObject.dll
 C:\Users\mssom\Desktop\CP\CP_API\DBObject\obj\Debug\DBObject.pdb
+D:\21stMarchCaptivePortal.Admin\DBObject\bin\Debug\DBObject.dll.config
+D:\21stMarchCaptivePortal.Admin\DBObject\bin\Debug\DBObject.dll
+D:\21stMarchCaptivePortal.Admin\DBObject\bin\Debug\DBObject.pdb
+D:\21stMarchCaptivePortal.Admin\DBObject\obj\Debug\CP.Lib.csprojResolveAssemblyReference.cache
+D:\21stMarchCaptivePortal.Admin\DBObject\obj\Debug\DBObject.dll
+D:\21stMarchCaptivePortal.Admin\DBObject\obj\Debug\DBObject.pdb

@@ -11,6 +11,7 @@ using FP.Radius;
 using DBObject;
 using System.Web.Script.Serialization;
 using CaptivePortal.API.Context;
+using System.Linq;
 
 namespace CaptivePortal.API.Controllers
 {
@@ -50,6 +51,15 @@ namespace CaptivePortal.API.Controllers
 
                     dbContextTransaction.Commit();
 
+                    UserRole objUserRole = new UserRole();
+                    var user = db.UserInfoModels.Where(i => i.email == objRegisterModel.Email).FirstOrDefault();
+                    objUserRole.id = user.id;
+                    var role = db.Roles.Where(i => i.RoleName == "User").FirstOrDefault();
+                    objUserRole.RoleId = role.RoleId;
+                    db.UserRoles.Add(objUserRole);
+                    db.SaveChanges();
+
+
                     JavaScriptSerializer objSerializer = new JavaScriptSerializer();
                     return new HttpResponseMessage
                     {
@@ -73,7 +83,7 @@ namespace CaptivePortal.API.Controllers
             try
             {
                 var args = new string[4];
-                args[0] = "192.168.1.9";
+                args[0] = "192.168.1.15";
                 args[1] = "testing123";
                 args[2] = objLoginModel.UserName;
                 args[3] = objLoginModel.UserPassword;

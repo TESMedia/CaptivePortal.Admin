@@ -14,18 +14,26 @@ namespace CaptivePortal.API.Context
             {
                 using (var db = new AdminManagementDbContext())
                 {
-                    if (db == null)
+                    var admin = db.UserInfoModels.Where(i => i.email == "captive@loc8.com").ToList();
+                    if (admin.Count != 1)
                     {
-                        var admin = new AdminManagementModel
+                        var user = new UserInfo
                         {
-                            Id = 1,
-                            Email = "captive@loc8.com",
-                            Password = "Tes@123"
+                            email = "captive@loc8.com",
+                            password = "Tes@123"
                         };
 
-                        db.AdminManagementModels.Add(admin);
+                        db.UserInfoModels.Add(user);
                         db.SaveChanges();
-                }
+
+                        UserRole objUserRole = new UserRole();
+                        var adminInfo = db.UserInfoModels.Where(i => i.email == "captive@loc8.com").FirstOrDefault();
+                        objUserRole.id = user.id;
+                        var role = db.Roles.Where(i => i.RoleName == "GAdmin").FirstOrDefault();
+                        objUserRole.RoleId = role.RoleId;
+                        db.UserRoles.Add(objUserRole);
+                        db.SaveChanges();
+                    }
             }
             }
             catch (Exception ex)

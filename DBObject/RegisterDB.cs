@@ -14,7 +14,7 @@ namespace DBObject
         int length;
         public RegisterDB()
         {
-            myConnectionString = "Server=192.168.1.9; Port = 3306; Database = radius; Uid=root;Pwd=av3c5Ys";
+            myConnectionString = "Server=192.168.1.15; Port = 3306; Database = radius; Uid=root;Pwd=av3c5Ys";
         }
         public int CreateNewUser(string userName, string password, string Email)
         {
